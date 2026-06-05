@@ -143,7 +143,7 @@ If you use this work, please cite:
 ```bibtex
 @misc{ayan2022maizetassel,
   title  = {Deep Learning with UAV Imagery for Maize Tassel Detection},
-  author = {Ayan, Sadiqun Nur and others},
+  author = {Ayan, Sadiqun Nur and Nafis, Muntasir Md and Osman, Faisal},
   year   = {2022},
   note   = {CSE499 Senior Design Project, North South University},
   url    = {https://github.com/ayan978/Deep-Learning-with-Unmanned-Aerial-Vehicle-Imagery-in-the-Detection-of-Tassels-in-Maize}

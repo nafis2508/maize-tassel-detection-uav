@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Data & models (too large for git)
+data/raw/
+data/processed/
+*.pt
+*.pth
+*.onnx
+runs/
+yolov5/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs & outputs
+*.log
+results/*.png
+results/*.jpg
+!results/.gitkeep

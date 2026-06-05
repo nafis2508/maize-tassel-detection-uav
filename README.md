@@ -129,8 +129,12 @@ python src/inference/predict.py --model runs/train/exp/weights/best.pt --source 
 
 ## Contributors
 
+## Contributors
+
 - **Sadiqun Nur Ayan** — [@ayan978](https://github.com/ayan978)
-- *(add co-authors here)*
+- **Muntasir Md Nafis** — [@nafis2508](https://github.com/nafis2508)
+- **Faisal Osman** — [@Faisal00001](https://github.com/Faisal00001)
+
 
 ## License
 

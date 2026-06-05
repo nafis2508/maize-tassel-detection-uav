@@ -111,12 +111,15 @@ python src/inference/predict.py --model runs/train/exp/weights/best.pt --source 
 
 ## Results
 
-| Model | mAP@0.5 | Precision | Recall | Inference (ms/img) |
-|-------|---------|-----------|--------|---------------------|
-| YOLOv5s     | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| Faster R-CNN (D2) | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
+Evaluated on the held-out test set.
 
-> Fill in the table after re-running training. Sample predictions are saved under [`results/`](results/).
+| Model              | mAP@0.5 | mAP@0.5:0.95 | Recall (AR@100) |
+|--------------------|---------|--------------|-----------------|
+| YOLOv5s            | _not recorded_ | _not recorded_ | _not recorded_ |
+| Faster R-CNN (D2)  | 0.799   | 0.441        | 0.603           |
+
+> Faster R-CNN metrics from `02_detectron2_maize_tassel_detection.ipynb` (COCOEvaluator on test split). YOLOv5s metrics were not saved in the notebook output — re-run `yolov5/val.py` to populate. Inference speed was not benchmarked in either notebook.
+
 
 ## Roadmap
 
